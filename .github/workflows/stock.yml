@@ -2,7 +2,7 @@ name: Daily Stock Tracker
 
 on:
   schedule:
-    - cron: '2 20 * * *'   # 1:25 AM IST (everyday)
+    - cron: '8 20 * * *'   # 1:25 AM IST (everyday)
   workflow_dispatch:
 
 jobs:
